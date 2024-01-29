@@ -17,7 +17,12 @@ e.g to scrape 100 threads from the following boards `b`, `tv`, `x` you would typ
 
 by default Chandler outputs to a folder `/data/` which should be placed next to the executable itself 
 
+### Image of Use
 ![Image of it Working](image.png)
+
+### Example Output
+
+![output pic](https://i.imgur.com/zd8siXr.png)
 
 ## Args
 
