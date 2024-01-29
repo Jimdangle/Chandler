@@ -39,3 +39,7 @@ by default Chandler outputs to a folder `/data/` which should be placed next to 
 
 Currently it only runs one time. It probably would not be too hard to have it run on intervals for overall collection but I felt that a) I dont want to disturb their site too much, and b) just running on a few boards and a hundred threads per board will generate an insane amount of data (~15000 unique text sections of 5-200 chars)
 
+
+## Warning
+
+4Chan has many different boards and categories of discussion. The boards you choose to scrape in no way reflect the intentions of this executable.
