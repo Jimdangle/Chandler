@@ -35,6 +35,9 @@ by default Chandler outputs to a folder `/data/` which should be placed next to 
 ### `-o`, `--output`:
     Set the output folder for the csv files. By default this is `./data/`
 
+### `-s`, `--style`:
+    Set the style chandler will save results in. `csv` or `txt`. Choosing csv will result in a csv with the following columns: (title,id,question,answer) and there will be a row for each thread and each comment on the thread. The txt option will merge all the data into a large text file with all comments concated
+
 ## Caveats and things I want to change
 
 Currently it only runs one time. It probably would not be too hard to have it run on intervals for overall collection but I felt that a) I dont want to disturb their site too much, and b) just running on a few boards and a hundred threads per board will generate an insane amount of data (~15000 unique text sections of 5-200 chars)
